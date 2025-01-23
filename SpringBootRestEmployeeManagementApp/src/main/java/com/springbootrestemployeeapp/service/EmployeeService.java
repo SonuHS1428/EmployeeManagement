@@ -1,5 +1,7 @@
 package com.springbootrestemployeeapp.service;
 
-public interface EmployeeService {
+import com.springbootrestemployeeapp.entity.Employee;
 
+public interface EmployeeService {
+	public abstract String addEmployee(Employee employee);
 }
